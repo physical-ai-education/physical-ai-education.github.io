@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111f2a">
+  <meta name="description" content="An accessible guide to the conceptual framework for undergraduate Physical AI education: what students investigate, how the parts fit together, and what counts as evidence.">
+  <title>Teaching AI in the Physical World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">P<span>↗</span></span> PHYSICAL AI <span class="brand-muted">/ EDUCATION</span></a>
+    <nav aria-label="Main navigation"><a href="#idea">The idea</a><a href="#framework">Framework</a><a href="#classroom">In the classroom</a><a href="#research">What’s next</a></nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> AN EXPLORATION OF PHYSICAL AI EDUCATION</p>
+        <h1>How do we teach AI that <em>meets the physical world?</em></h1>
+        <p class="hero-lead">A robot can follow a line in a demo. The deeper lesson starts when students ask why it drifted, what it sensed, and how the next action changed what it could see.</p>
+        <div class="hero-actions"><a class="button button-main" href="#idea">Explore the idea <span aria-hidden="true">↘</span></a></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a small robot following a curved line: its camera observes the path, its controller steers, and the next camera image changes with the movement.">
+        <div class="art-heading">A SIMPLE TASK. A COMPLEX LOOP.</div>
+        <svg viewBox="0 0 590 500" aria-hidden="true" focusable="false">
+          <defs><pattern id="dots" width="23" height="23" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#9ab4bd" opacity=".19"/></pattern><linearGradient id="floor" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#263b46"/><stop offset="1" stop-color="#142831"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="10"/></filter></defs>
+          <rect x="15" y="15" width="560" height="470" rx="17" fill="url(#floor)"/><rect x="15" y="15" width="560" height="470" rx="17" fill="url(#dots)"/>
+          <path d="M78 442 C155 445 181 350 266 350 S384 379 398 281 S442 112 520 100" fill="none" stroke="#e9dbc1" stroke-width="19" stroke-linecap="round" opacity=".13"/>
+          <path d="M78 442 C155 445 181 350 266 350 S384 379 398 281 S442 112 520 100" fill="none" stroke="#e6dbbb" stroke-width="5" stroke-linecap="round" stroke-dasharray="13 12"/>
+          <circle cx="398" cy="281" r="49" fill="#c8ea72" opacity=".16" filter="url(#glow)"/>
+          <path d="M384 252 L448 177 L502 224 Z" fill="#c8ea72" opacity=".12" stroke="#c8ea72" stroke-width="1"/>
+          <g transform="translate(395 287) rotate(-15)"><rect x="-37" y="-47" width="74" height="94" rx="16" fill="#e6e9d5"/><rect x="-26" y="-27" width="52" height="38" rx="7" fill="#132c35"/><circle cx="0" cy="-10" r="10" fill="#a8d661"/><circle cx="0" cy="-10" r="4" fill="#e9f9c2"/><rect x="-47" y="-28" width="11" height="49" rx="5" fill="#a4b2ad"/><rect x="36" y="-28" width="11" height="49" rx="5" fill="#a4b2ad"/><path d="M-14 31h28" stroke="#789480" stroke-width="4" stroke-linecap="round"/></g>
+          <circle cx="440" cy="191" r="5" fill="#c8ea72"/><path d="M447 191h36" stroke="#c8ea72" stroke-width="1.5"/><text x="487" y="196" fill="#c8ea72" font-size="11" font-family="monospace">SEE</text>
+          <circle cx="299" cy="349" r="4" fill="#e6dbbb"/><path d="M297 349h-61" stroke="#e6dbbb" stroke-width="1.3"/><text x="118" y="354" fill="#e6dbbb" font-size="11" font-family="monospace">ACT → OBSERVE AGAIN</text>
+          <text x="42" y="56" fill="#d6e6e0" font-size="11" font-family="monospace" letter-spacing="2">SCENE 01 / FOLLOWING A LINE</text>
+        </svg>
+        <div class="art-footer"><span>CAMERA INPUT</span><span>↔</span><span>STEERING</span><span>↔</span><span>CHANGING PATH</span></div>
+      </div>
+    </section>
+
+    <section id="idea" class="section section-cream"><div class="shell">
+      <div class="section-top"><span class="section-num">01 / THE IDEA</span><p>WHAT MAKES THIS A DISTINCT LEARNING EXPERIENCE?</p></div>
+      <div class="intro-grid"><h2>It’s about what students <span class="serif-italic">investigate.</span></h2><div><p class="section-lead">Physical AI education asks students to study how sensing, decisions, and actions work together in a real environment.</p><p>Putting AI code on a robot does not automatically make that relationship visible. Students need to gather evidence from physical interaction and explain how it affects the system’s behavior.</p></div></div>
+      <div class="criteria" aria-label="Four conditions for a Physical AI learning experience">
+        <article><span>01</span><h3>Study intelligent behavior</h3><p>AI behavior is a main learning goal, rather than only assembling or programming hardware.</p></article>
+        <article><span>02</span><h3>Use live physical evidence</h3><p>Students produce or interpret evidence from sensing, action, or environmental interaction whose outcome is not fully predictable.</p></article>
+        <article><span>03</span><h3>Explain the feedback loop</h3><p>Learning goals or assessment explicitly address embodied sensing and how actions change later observations.</p></article>
+        <article><span>04</span><h3>Face a real constraint</h3><p>Uncertainty, limited resources, or responsibility meaningfully changes the analysis or design.</p></article>
+      </div>
+      <p class="note"><strong>What about simulation?</strong> It is valuable for preparation, comparison, and access. Simulation or replay alone cannot provide live physical evidence; a remote lab can when students direct and interpret live interaction.</p>
+    </div></section>
+
+    <section id="framework" class="section section-dark"><div class="shell">
+      <div class="section-top"><span class="section-num">02 / THE FRAMEWORK</span><p>SIX CHARACTERISTICS · THREE ROLES</p></div>
+      <div class="framework-heading"><h2>One system.<br><span class="serif-italic">Connected ideas.</span></h2><p>Two ideas form the core. Three conditions shape the choices students make. The sixth asks them to explain the whole system.</p></div>
+      <div class="framework-visual" aria-label="Conceptual framework: embodied perception and a feedback loop form the core; uncertainty, resources, and responsibility shape it; system integration connects the full system.">
+        <div class="visual-tag">THE CORE / WHAT THE AGENT DOES</div>
+        <div class="loop-grid"><div class="loop-node"><span>01 / CORE</span><h3>Embodied perception</h3><p>The camera’s placement and the lighting change what the robot sees.</p></div><span class="loop-arrow" aria-hidden="true">↔</span><div class="loop-node"><span>02 / CORE</span><h3>Closed-loop intelligence</h3><p>Each steering choice changes where the robot is and what it sees next.</p></div></div>
+        <div class="visual-divider"><span>SHAPED BY</span></div>
+        <div class="conditions"><div><span>03</span><h4>Uncertainty</h4><p>Noisy observations and variable motion</p></div><div><span>04</span><h4>Time & resources</h4><p>Delay, computing, energy, and access</p></div><div><span>05</span><h4>Safety & responsibility</h4><p>Risks, privacy, people, and place</p></div></div>
+        <div class="integrate"><span>06 / ACROSS THE WHOLE SYSTEM</span><strong>System integration</strong><p>Explain how the parts interact, and trace a failure across their boundaries.</p></div>
+      </div>
+      <p class="visual-caption">Conceptual diagram: The groups show different roles in the framework, not measured weights or outcomes.</p>
+    </div></section>
+
+    <section id="classroom" class="section section-cream"><div class="shell">
+      <div class="section-top"><span class="section-num">03 / IN THE CLASSROOM</span><p>TRY A CONCRETE EXAMPLE</p></div>
+      <div class="intro-grid"><h2>Why does the line follower <span class="serif-italic">drift?</span></h2><div><p class="section-lead">Choose a complication. See how a short demonstration becomes a question students can investigate.</p><p>This is an illustrative teaching example, not a report of an experiment.</p></div></div>
+      <div class="explorer"><div class="explorer-tabs" role="group" aria-label="Choose a line-following challenge"><button class="scenario active" data-scenario="light" aria-pressed="true">Changing light <span>01</span></button><button class="scenario" data-scenario="delay" aria-pressed="false">Processing delay <span>02</span></button><button class="scenario" data-scenario="safety" aria-pressed="false">Shared space <span>03</span></button></div><div class="explorer-content" aria-live="polite"><div><span class="micro-label" id="scenario-category">UNCERTAINTY / PERCEPTION</span><h3 id="scenario-title">The camera sees a different line.</h3><p id="scenario-desc">A shadow changes the image. The robot turns too late, moves off the line, and its next camera view changes again.</p></div><div class="prompt-card"><span>ASK STUDENTS TO…</span><p id="scenario-task">Compare camera images and steering decisions under different lighting. Run repeated trials and explain how changed observations led to changed actions.</p><span>COLLECT EVIDENCE</span><p id="scenario-evidence">Images or sensor readings, a time-aligned action trace, and results from repeated runs.</p></div></div></div>
+      <div class="teaching"><h3>Five ways to design the learning experience</h3><div class="teaching-list"><div><b>01</b><strong>Start with the concept</strong><span>Choose physical work that reveals an AI idea.</span></div><div><b>02</b><strong>Build toward physical testing</strong><span>Use simulation and recorded data, then controlled live tests.</span></div><div><b>03</b><strong>Value evidence over a perfect demo</strong><span>Assess measurement, diagnosis, and revision.</span></div><div><b>04</b><strong>Build in responsibility</strong><span>Let safety and stakeholder needs change a design choice.</span></div><div><b>05</b><strong>Plan for reliable access</strong><span>Count test time, setup, maintenance, and support.</span></div></div></div>
+    </div></section>
+
+    <section id="research" class="section section-sage"><div class="shell"><div class="section-top"><span class="section-num">04 / WHAT COMES NEXT</span><p>QUESTIONS FOR FUTURE STUDIES</p></div><div class="research-grid"><div><h2>A starting point for <span class="serif-italic">research.</span></h2><p>These questions invite future studies. The framework is conceptual; its effects on learning have not been established.</p></div><div class="question-list"><article><span>Q / 01</span><h3>How do we measure understanding?</h3><p>Can assessments reveal whether students can explain connections across sensing, action, and constraints?</p></article><article><span>Q / 02</span><h3>How much physical interaction helps?</h3><p>Which learning goals need live hardware, and which can be prepared through simulation or data replay?</p></article><article><span>Q / 03</span><h3>Who can access the experience?</h3><p>How do equipment time, setup, maintenance, and student needs affect opportunity to learn?</p></article></div></div></div></section>
+
+  </main>
+  <footer class="footer shell"><span>PHYSICAL AI / EDUCATION</span><p>Exploring how students learn from AI systems that sense and act in the physical world.</p><a href="#top">Back to top ↑</a></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
